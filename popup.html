@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="popup.css" />
+  <title>ThemeSpy</title>
+</head>
+<body>
+  <header class="bar">
+    <span class="mark" aria-hidden="true"></span>
+    <span class="bar__title">ThemeSpy</span>
+    <button class="historybtn" id="historyBtn" type="button" title="Recently inspected" aria-label="Recently inspected"></button>
+    <button class="themetoggle" id="themeToggle" type="button" title="Toggle dark mode" aria-label="Toggle dark mode"></button>
+  </header>
+
+  <main id="view" class="view">
+    <!-- states injected by popup.js -->
+    <div class="loading" id="loading">
+      <span class="spinner" aria-hidden="true"></span>
+      Reading storefront…
+    </div>
+  </main>
+
+  <script src="popup.js"></script>
+</body>
+</html>

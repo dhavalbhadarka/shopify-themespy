@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "ThemeSpy",
+  "version": "1.0.0",
+  "description": "Click to read the active Shopify storefront's theme name, base theme, installed version, latest version, store URL and role.",
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "ThemeSpy"
+  },
+  "permissions": ["scripting", "activeTab", "storage"],
+  "host_permissions": ["https://api.github.com/*"],
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  }
+}
